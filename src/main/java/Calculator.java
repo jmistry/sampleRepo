@@ -8,7 +8,7 @@ public class Calculator {
         String[] numbers = nums.split(",");
         int sum =0;
         for (String number : numbers) {
-            sum += Integer.parseInt(number);
+            sum += Integer.parseInt(number) + 3;
         }
         return sum;
     }
